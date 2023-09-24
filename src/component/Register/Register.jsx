@@ -20,7 +20,7 @@ const Register = () => {
     const handleSubmit = (e) => {
         e.preventDefault();
         console.log(formData);
-        navigate('home')
+        navigate('/home')
     };
 
     return (
