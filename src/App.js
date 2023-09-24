@@ -24,10 +24,10 @@ function App() {
         <Route path="cart" element={<Cart/>} />
         <Route path="shipping" element={<Shipping/>} />
         <Route path="payment" element={<Payment/>} />
-        <Route path="/" element={<Login/>} />
+        <Route path="login" element={<Login/>} />
         <Route path="register" element={<Register/>} />
         <Route path="about" element={<About />} />
-        <Route path="entry" element={<Entry />} />
+        <Route path="/" element={<Entry />} />
       </Routes>
     </>
   );
