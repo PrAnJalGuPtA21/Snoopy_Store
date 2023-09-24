@@ -28,10 +28,8 @@ const Navbar = () => {
                             </li>
                         </ul>
                         <div className="button">
-                            <NavLink to="/" className="btn btn-dark">
-                                <i className="fa fa-sign-in me-2"></i>Login</NavLink>
-                            <NavLink to="/register" className="btn btn-outline-dark ms-2 shadow-lg rounded">
-                                <i className="fa fa-user-plus me-2"></i>Register</NavLink>
+                            <NavLink to="/" className="btn btn-danger">
+                            <i class="fa fa-power-off me-2 "></i>Log Out</NavLink>
                             <NavLink to="/cart" className="btn btn-outline-dark ms-2 shadow-lg rounded">
                                 <i className="fa fa-shopping-cart me-2"></i>Cart ({state.length})</NavLink>
                         </div>
