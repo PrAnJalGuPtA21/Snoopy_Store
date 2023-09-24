@@ -11,8 +11,13 @@ const AuthForm = () => {
         navigate('/register');
     }
 
-    const handleSummit =()=>{
+    const handleSummit =(e)=>{
+        e.preventDefault();
         navigate("/home")
+    }
+
+    const handleRegister=(e)=>{
+        e.preventDefault();
     }
 
     return (
@@ -34,7 +39,7 @@ const AuthForm = () => {
                                     <h3>Register</h3>
                                     <input type="text" className="form-control mb-2" placeholder="Username" />
                                     <input type="password" className="form-control mb-2" placeholder="Password" />
-                                    <button className="btn btn-primary btn-block">Register</button>
+                                    <button className="btn btn-primary btn-block" onClick={handleRegister}>Register</button>
                                     <p className="text-center mt-2">Already have an account? <span onClick={() => setIsLogin(true)} className="switch-text">Login</span></p>
                                 </div>
                             )}

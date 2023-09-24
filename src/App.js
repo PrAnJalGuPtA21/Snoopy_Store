@@ -11,6 +11,7 @@ import About from "./component/About";
 import Login from "./component/Login/Login"
 import Register from "./component/Register/Register";
 import Entry from "./component/Entry";
+import Contact from "./component/Contact";
 
 
 function App() {
@@ -28,6 +29,7 @@ function App() {
         <Route path="register" element={<Register/>} />
         <Route path="about" element={<About />} />
         <Route path="/" element={<Entry />} />
+        <Route path="contact" element={<Contact />} />
       </Routes>
     </>
   );
