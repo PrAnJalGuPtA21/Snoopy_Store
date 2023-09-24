@@ -24,7 +24,7 @@ function Contact() {
 
     return (
         <div className="container mt-5">
-            <h2 className="text-center">Contact Us</h2>
+            <h2 className="text-center fst-italic ">Contact Us</h2>
             <div className="row justify-content-center">
                 <div className="col-md-6 shadow-lg rounded">
                     <form onSubmit={handleSubmit} className="mt-4">

@@ -8,8 +8,8 @@ import Cart from "./component/Cart";
 import Payment from "./component/Payment";
 import Shipping from "./component/Shipping";
 import About from "./component/About";
-import Login from "./component/Login/Login"
-import Register from "./component/Register/Register";
+import Login from "./component/Login"
+import Register from "./component/Register";
 import Entry from "./component/Entry";
 import Contact from "./component/Contact";
 
