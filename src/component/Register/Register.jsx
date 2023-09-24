@@ -26,7 +26,7 @@ const Register = () => {
     return (
         <div className="container mt-5">
             <div className="row justify-content-center">
-                <div className="col-md-6 border p-5 ">
+                <div className="col-md-6 border p-5 shadow-lg">
                     <h2 className="fst-italic ">Register</h2>
                     <form onSubmit={handleSubmit}>
                         <div className="mb-3">

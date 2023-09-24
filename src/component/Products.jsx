@@ -55,15 +55,15 @@ export default function Products() {
 
         return (
             <>
-                <div className="buttons d-flex justify-content-center mb-5 pb-5">
-                    <button className="btn btn-dark me-2 " onClick={() => setFilter(data)}>All</button>
-                    <button className="btn btn-outline-dark me-2" onClick={() => filterProduct("men's clothing")}>Men's Section</button>
-                    <button className="btn btn-outline-dark me-2" onClick={() => filterProduct("women's clothing")}>Women's Section</button>
-                    <button className="btn btn-outline-dark me-2" onClick={() => filterProduct("jewelery")}>Jewelery </button>
-                    <button className="btn btn-outline-dark me-2" onClick={() => filterProduct("electronics")}>Electronics</button>
+                <div className="buttons d-flex flex-wrap  justify-content-center mb-5 pb-5">
+                    <button className="btn btn-dark me-2 m-md-1" onClick={() => setFilter(data)}>All</button>
+                    <button className="btn btn-outline-dark me-2 m-md-1" onClick={() => filterProduct("men's clothing")}>Men's Section</button>
+                    <button className="btn btn-outline-dark me-2 m-md-1" onClick={() => filterProduct("women's clothing")}>Women's Section</button>
+                    <button className="btn btn-outline-dark me-2 m-md-1" onClick={() => filterProduct("jewelery")}>Jewelery </button>
+                    <button className="btn btn-outline-dark me-2 m-md-1" onClick={() => filterProduct("electronics")}>Electronics</button>
                 </div>
                 {filter.map((product) => {
-                    return (
+                    return (    
                         <>
                             <div className="col-md-3 mb-4 ">
                                 <div className="card h-100 text-center p-4" key={product.id}>

@@ -20,7 +20,7 @@ const AuthForm = () => {
             <div className="row justify-content-center mt-5">
                 <div className="col-md-6">
                     <div className="card">
-                        <div className="card-body p-5 ">
+                        <div className="card-body p-5 shadow-lg">
                             {isLogin ? (
                                 <div className="login ">
                                     <h3 className="fst-italic ">Login</h3>

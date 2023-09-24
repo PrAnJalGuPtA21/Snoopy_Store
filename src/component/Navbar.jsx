@@ -1,9 +1,9 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom';
-import {useSelector} from "react-redux";
+import { useSelector } from "react-redux";
 
-const Navbar =() => {
-    const state = useSelector((state) =>state.handleCart)
+const Navbar = () => {
+    const state = useSelector((state) => state.handleCart)
     return (
         <div>
             <nav className="navbar navbar-expand-lg bg-white py-3 shadow-lg p-3 mb-1 bg-white rounded">
@@ -13,7 +13,7 @@ const Navbar =() => {
                         <span className="navbar-toggler-icon"></span>
                     </button>
                     <div className="collapse navbar-collapse " id="navbarSupportedContent">
-                        <ul className="navbar-nav mx-auto mb-2 mb-lg-0">
+                        <ul className="navbar-nav mx-auto ms-auto  mb-2 mb-lg-0">
                             <li className="nav-item">
                                 <NavLink className="nav-link active" aria-current="page" to="/home">Home</NavLink>
                             </li>

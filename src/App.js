@@ -10,6 +10,9 @@ import Shipping from "./component/Shipping";
 import About from "./component/About";
 import Login from "./component/Login/Login"
 import Register from "./component/Register/Register";
+import Entry from "./component/Entry";
+
+
 function App() {
   return (
     <>
@@ -24,6 +27,7 @@ function App() {
         <Route path="/" element={<Login/>} />
         <Route path="register" element={<Register/>} />
         <Route path="about" element={<About />} />
+        <Route path="entry" element={<Entry />} />
       </Routes>
     </>
   );
