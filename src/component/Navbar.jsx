@@ -15,7 +15,7 @@ const Navbar =() => {
                     <div className="collapse navbar-collapse " id="navbarSupportedContent">
                         <ul className="navbar-nav mx-auto mb-2 mb-lg-0">
                             <li className="nav-item">
-                                <NavLink className="nav-link active" aria-current="page" to="/">Home</NavLink>
+                                <NavLink className="nav-link active" aria-current="page" to="/home">Home</NavLink>
                             </li>
                             <li className="nav-item">
                                 <NavLink className="nav-link active" to="/products">Products</NavLink>
@@ -28,7 +28,7 @@ const Navbar =() => {
                             </li>
                         </ul>
                         <div className="button">
-                            <NavLink to="/login" className="btn btn-dark">
+                            <NavLink to="/" className="btn btn-dark">
                                 <i className="fa fa-sign-in me-2"></i>Login</NavLink>
                             <NavLink to="/register" className="btn btn-outline-dark ms-2 shadow-lg rounded">
                                 <i className="fa fa-user-plus me-2"></i>Register</NavLink>

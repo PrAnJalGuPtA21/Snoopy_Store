@@ -1,0 +1,14 @@
+.switch-text {
+    cursor: pointer;
+    color: blue;
+    text-decoration: underline;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+.login, .register {
+    animation: fadeIn 0.5s;
+}
